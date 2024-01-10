@@ -2,7 +2,7 @@
 date: 2020-04-07
 title: Die senseBox in Betrieb nehmen
 title_order: 1
-categories: arduino
+categories: Blockly
 description: Inbetriebnahme der senseBox MCU-S2
 type: Document
 set: erste-schritte-arduino
