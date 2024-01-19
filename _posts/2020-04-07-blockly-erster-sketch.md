@@ -61,12 +61,12 @@ Als erstes muss die eingebauten LED initialisiert werden. Dafür ziehe den `RGB 
 
 {% include image.html image=page.image4 %}
 
-> Die eingebaute LED findest du über dem roten Reset-Knopf auf der senseBox MCU.
+> Die eingebaute LED findest du über dem roten Reset-Knopf auf der senseBox MCU-S2.
 
 ### Schritt 3: Die eingebaute LED blinken lassen
 
-Nun wollen wir die LED jede Sekunde in einer anderen Farbe blinken lassen. Hierfür nehmen wir aus der Kategorie `Zeit` den `Intervall` Block und ziehen ihn in die `Endlosschleife()`. Dort können wir den noch den Wert für das Interval von `10000ms` auf `1000ms` ändern, damit der Block alle 1000 Millisekunden (1 Sekunde) ausgeführt wird.
-In der Kategorie `LED` nehmen wir jetzt den Block `Setze RGB-LED an Port:` und platzieren ihn innerhalb des Intervalls. Stelle hier sicher, dass der ausgewählte `Port` der gleiche ist wie im initialisieren Block im `Setup()`. Letztlich müssen wir noch eine Farbe angeben in welcher die RGB-LED leuchten soll. Da jede Sekunde eine neue zufällige Farbe erscheinen soll, nehmen wir uns in der Kategorie `LED` den Block `zufällige Farbe` und ziehen ihn zum Feld `Farbe`.
+Nun wollen wir die LED jede Sekunde in einer anderen Farbe blinken lassen. Hierfür nehmen wir aus der Kategorie `Zeit` den `Intervall` Block und ziehen ihn in die `Endlosschleife()`. Dort können wir den noch den Wert für das Intervall von `10000ms` auf `1000ms` ändern, damit der Block alle 1000 Millisekunden (1 Sekunde) ausgeführt wird.
+In der Kategorie `LED` nehmen wir jetzt den Block `Setze RGB-LED an Port:` und platzieren ihn innerhalb des Intervalls. Stelle hier sicher, dass der ausgewählte `Port` der gleiche ist wie im initialisieren Block im `Setup()`. Letztlich müssen wir noch eine Farbe angeben, in welcher die RGB-LED leuchten soll. Da jede Sekunde eine neue zufällige Farbe erscheinen soll, nehmen wir uns in der Kategorie `LED` den Block `zufällige Farbe` und ziehen ihn zum Feld `Farbe`.
 Der vollständige Sketch sieht wiefolgt aus.
 
 {% include image.html image=page.image5 %}

@@ -40,4 +40,4 @@ Nun kannst du die zuvor heruntergeladene .BIN-Datei einfach per Drag & Drop auf 
 
 {% include image.html image=page.image4 %}
 
-> Wenn deine senseBox nicht als Wechseldatenträger erkannt wird, probiere [die senseBox zu resetten](/misc/reset-mcus2/) die senseBox zu resetten und es nochmal zu versuchen
+> Wenn deine senseBox nicht als Wechseldatenträger erkannt wird, probiere [die senseBox zu resetten](/misc/reset-mcus2/) und es nochmal zu versuchen
