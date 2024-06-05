@@ -1,3 +1,8 @@
+⚠️ This documentation is archived. Please find the latest documentation at https://github.com/sensebox/docs
+
+---
+
+
 # Base
 
 Knowledge base template for Jekyll.
